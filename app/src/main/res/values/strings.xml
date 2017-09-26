@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WalkieTalkie Manual</string>
+    <string name="error_missing_permissions">Cannot start without required permissions</string>
+
+    <string name="toast_connected">Connected to %s</string>
+    <string name="toast_disconnected">Disconnected from %s</string>
+
+    <string name="status_unknown">Please wait</string>
+    <string name="status_connected">Connected\nHold the volume keys to talk</string>
+    <string name="title_activity_sender">SenderActivity</string>
+    <string name="status_advertising">Advertising</string>
+    <string name="status_discovering">Have one person shake their device. Everyone else, stand still.</string>
+</resources>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:keepScreenOn="true">
+
+    <Button style="@style/Widget.AppCompat.Button.Borderless.Colored"
+
+        android:id="@+id/receive_button"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Recieve" />
+    />
+
+    <Button style="@style/Widget.AppCompat.Button.Borderless.Colored"
+
+        android:id="@+id/send_button"
+        android:layout_below="@id/receive_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Send" />
+    />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|end"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/debug_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:textSize="20sp"
+        android:textColor="@color/textColor" />
+
+
+
+</RelativeLayout>
